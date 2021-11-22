@@ -21,7 +21,7 @@
               <div class="col-sm-5 col-sm-offset-1 mb-sm-40">
                 <h4 class="font-alt">Login</h4>
                 <hr class="divider-w mb-10">
-                <form class="form" method="post" action="/member/Login">
+                <form class="form" method="post">
                   <div class="form-group">
                     <input class="form-control" id="MEM_ID" type="text" name="MEM_ID" placeholder="ID"/>
                   </div>
@@ -37,7 +37,7 @@
                     <button class="btn btn-round btn-b">Sing-up</button>
                   </div>
                   <div class="form-group"><a href="/member/userSearch">Forgot ID?</a></div>
-                  <div class="form-group"><a href="/findPwView">Forgot PASSWORD?</a></div>
+                  <div class="form-group"><a href="/member/findPwView">Forgot PASSWORD?</a></div>
                 </form>
               </div>
               </div>
